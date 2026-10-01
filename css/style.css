@@ -213,7 +213,76 @@ body {
   display: flex;
   flex-direction: column;
   padding: 6.4rem 3.2rem;
-  gap: 2.4rem;
-  align-items: center;
   text-align: center;
+  align-items: center;
+}
+
+.content--gap-sm {
+    gap: 2.4rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 6.4rem 3.2rem;
+    gap: 7.2rem;
+  }
+  
+  .hero__image-right {
+    display: none;
+  }
+
+  .hero__image-left {
+    width: 82rem;
+  }
+
+  .hero__content {
+    max-width: 44.83rem;
+  }
+
+  .title {
+    font-size: 3.6rem;
+  }
+
+  .title--lg {
+    font-size: 4.8rem;
+  }
+
+  .hero__btn {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .section-top {
+    padding: 5.6rem 0 6.4rem 0;
+    max-width: 68rem;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .collage {
+    gap: 2.4rem;
+  }
+
+  .collage__image {
+    width: 15.2rem;
+    height: 16rem;
+  }
+
+  .content {
+    max-width: 50.4rem;
+    align-items: center;
+  }
+
+  .content__head {
+    max-width: 44.5rem;
+  }
+
+  .content__subtitle {
+    font-size: 1.4rem;
+  }
+
+  .info {
+  background-image: linear-gradient(hsl(192, 37%, 48%, 0.9), hsl(192, 37%, 48%, 0.9)), url("../assets/tablet/image-footer.jpg");
+  }
 }
